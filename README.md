@@ -9,6 +9,14 @@ Once environment set up is done, run the following command.
 `npm start` to execute.
 The terminal will ask options , type a for android.
 
-command for bundle te assets `npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest <PATH>`
+Command for bundle te assets `npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest <PATH>`
 
+
+Steps to build realease apk
+
+> `cd android`
+
+> `./gradlew assembleRelease`
+
+This command builds the release APK, and you can find it in the android/app/build/outputs/apk/release/ directory.
 
