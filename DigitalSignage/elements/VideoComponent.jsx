@@ -8,8 +8,8 @@ export default class VideoComponent extends React.Component {
   renderVideo () {
       return(
         <Video
-          //source={require('./assets/Waterfall.mp4')}
-          source={{uri: 'http://13.127.84.210:8888/mystream/index.m3u8'}}
+          source={require('../assets/Waterfall.mp4')}
+          //source={{uri: 'http://13.127.84.210:8888/mystream/index.m3u8'}}
           //source={{uri: 'http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8'}}
           style={{ width: 800, height: 800 }}
           muted={true}
