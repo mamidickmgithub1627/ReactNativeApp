@@ -20,3 +20,5 @@ Steps to build realease apk
 
 This command builds the release APK, and you can find it in the android/app/build/outputs/apk/release/ directory.
 
+To install the release apk in the connected device run `./gradlew installRelease`
+
